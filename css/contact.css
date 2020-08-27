@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background: black;
+  color: rgb(211, 211, 211);
+}
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+.navbar-brand img {
+  width: 70px;
+  margin: 0 0;
+}
+li .dropdown-menu {
+  background-color: black;
+  color: white;
+}
+.social-media i {
+  margin: 0 3px;
+}
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.active {
+  border-bottom: 2px solid white;
+}
+.fa-instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  font-size: 20px;
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-facebook-f {
+  font-size: 20px;
+  color: #3b5998;
+}
+.fa-twitter {
+  font-size: 20px;
+  color: #1da1f2;
+}
+nav li a {
+  color: black;
+}
+main img {
+  width: 100%;
+  height: 100%;
+  margin: 0 0;
+}
+.nav a {
+  color: white;
+}
+
+.backgd {
+  width: 100vw;
+  height: 80vh;
+  padding: 0;
+}
+#map {
+  margin: 80px auto;
+  width: 80vw;
+  height: 80vh;
+}
+.heading {
+  font-size: 2rem;
+  padding: 0 5px;
+}
+
+.form-row {
+  margin: 20px 0;
+}
+.contact-form {
+  padding: 0;
+  padding-right: 65px;
+}
+.contact-info {
+  padding: 0 10px 10px 30px;
+  margin-top: 0;
+  border-left: 2px solid white;
+}
+.contact-icons {
+  font-size: 25px;
+}
+.contact-info .row {
+  margin: 30px 0;
+}
+.contact-content p {
+  margin-bottom: 0;
+}
+.contact-content + p {
+  font-weight: 400;
+}
+.fa-mobile-alt {
+  padding-left: 7px;
+}
+.fa-envelope {
+  padding-left: 3px;
+}
+.send {
+  width: 8rem;
+  height: 2rem;
+  background-color: #007db8;
+  border-radius: 20px;
+  text-align: center;
+}
+footer {
+  width: 100vw;
+  height: 10rem;
+  background-color: rgb(105, 105, 105);
+  color: black;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+footer .fa-instagram:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    white 0%,
+    white 5%,
+    white 45%,
+    white 60%,
+    white 90%
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer .fa-facebook-f:hover {
+  color: white;
+}
+footer .fa-twitter:hover {
+  color: white;
+}
+
+.copy-right_text {
+  width: 80vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.social_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.faded {
+  font-weight: 100;
+}

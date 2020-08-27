@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+nav {
+  background-color: transparent;
+}
+
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #3131ce;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+.navbar-brand img {
+  width: 70px;
+  margin: 0 0;
+}
+main video {
+  width: 100%;
+  height: 100%;
+}
+.social-media i {
+  margin: 0 3px;
+}
+.nav a {
+  color: white;
+}
+
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.active {
+  border-bottom: 2px solid white;
+}
+.fa-instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    white 0%,
+    white 5%,
+    white 45%,
+    white 60%,
+    white 90%
+  );
+  font-size: 20px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-facebook-f {
+  font-size: 20px;
+  color: white;
+}
+.fa-twitter {
+  font-size: 20px;
+  color: white;
+}
+
+.social-media .fa-instagram:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  font-size: 20px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.social-media .fa-facebook-f:hover {
+  color: #3b5998;
+}
+.social-media .fa-twitter:hover {
+  color: #1da1f2;
+}
+
+nav li a {
+  color: black;
+}
+
+footer .fa-instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer .fa-facebook-f {
+  color: #3b5998;
+}
+footer .fa-twitter {
+  color: #1da1f2;
+}
+
+footer .fa-instagram:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    white 0%,
+    white 5%,
+    white 45%,
+    white 60%,
+    white 90%
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer .fa-facebook-f:hover {
+  color: white;
+}
+footer .fa-twitter:hover {
+  color: white;
+}
+
+li .dropdown-menu {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  width: 100vw;
+  height: 10rem;
+  background-color: rgb(105, 105, 105);
+  color: black;
+  font-size: 1.2rem;
+  position: relative;
+}
+.copy-right_text {
+  width: 80vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.social_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.heading-content {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.heading-content span {
+  border-bottom: 2px solid white;
+}
+
+main {
+  width: 80vw;
+  margin: 0 auto;
+}
+.categories {
+  width: 100%;
+  height: 100%;
+  margin: 50px auto;
+}
+.category-poster {
+  margin-bottom: 25px;
+}
+.category-poster img {
+  width: 100%;
+}
+
+.myImage {
+  position: relative;
+}
+
+.image-content {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  text-align: center;
+}
+
+.contents {
+  width: 100%;
+  font-size: 18px;
+  margin: 8px auto;
+  color: white;
+  cursor: pointer;
+}
+
+.category-poster:hover {
+  opacity: 0.7;
+}
